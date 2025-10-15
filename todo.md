@@ -1,0 +1,3 @@
+- clap_mangen
+- clap_complete
+- file_hashing: is a tiny library, can be implemented easily
