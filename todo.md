@@ -1,3 +1,5 @@
 - clap_mangen
 - clap_complete
 - file_hashing: is a tiny library, can be implemented easily
+  - also does not hash directories deterministically, relies on `walkDir`s order
+  - read [specs](https://www.w3.org/TR/sri/#introduction)
