@@ -3,3 +3,4 @@
 - file_hashing: is a tiny library, can be implemented easily
   - also does not hash directories deterministically, relies on `walkDir`s order
   - read [specs](https://www.w3.org/TR/sri/#introduction)
+- nix hash: instead of `file_hashing`, reimplement nix file hash in rust or use shell application `nix hash path` with fallback
